@@ -1,4 +1,3 @@
-#sdk: "/Users/nishima/.rvm/gems/ruby-1.9.3-p194@kyusu/gems/rhodes-3.3.3"
 sdkversion: 3.3.3
 name: Tabbar
 version: 1.0
@@ -8,7 +7,7 @@ bbver: 4.6
 applog: rholog.txt
 iphone:
   configuration: Release
-  sdk: iphonesimulator5.0
+  sdk: iphonesimulator5.1
   provisionprofile:
   codesignidentity:
   entitlements:
@@ -19,6 +18,6 @@ wp:
 symbian:
   uid: '0xe9c760ec'
 android:
-  version: 2.1
+  version: 2.3.3
 
 extensions: ["json", "another-extension"]
